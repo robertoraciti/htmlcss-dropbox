@@ -262,3 +262,30 @@ strong {
 .partner-text * {
   margin-bottom: 10px;
 }
+
+/* BUSINESS SECTION */
+
+.business-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.business-box {
+  width: 31%;
+}
+
+.business-box img {
+  width: 100%;
+}
+
+.business-box h3 {
+  margin-bottom: 15px;
+}
+
+.short-title {
+  width: 60%;
+}
+
+/* COMPANY SECTION */
