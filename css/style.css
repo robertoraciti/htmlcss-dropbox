@@ -8,6 +8,10 @@ body {
   color: black;
 }
 
+main {
+  margin-bottom: 100px;
+}
+
 nav {
   height: 60px;
   justify-content: space-between;
@@ -25,6 +29,11 @@ nav {
   flex-wrap: wrap;
 }
 
+li,
+p {
+  color: #373737;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -35,6 +44,7 @@ nav ul {
 nav li {
   padding: 5px 10px;
   display: flex;
+  color: #373737;
 }
 
 .logo {
@@ -72,7 +82,6 @@ nav a {
 .medium-container {
   max-width: 70%;
   margin: auto;
-  display: flex;
 }
 
 h1 {
@@ -199,7 +208,7 @@ small {
   background-color: darkgray;
   margin: 30px 0;
   position: relative;
-  left: 25px;
+  left: 10px;
 }
 
 .highlights-plan {
@@ -359,4 +368,101 @@ strong {
 
 .center {
   background-color: #f5f5f5;
+}
+.center-logo {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.center img {
+  width: 60%;
+}
+
+.center hr {
+  width: 50px;
+  height: 1px;
+  background-color: darkgray;
+}
+
+.company-interview * {
+  margin-bottom: 30px;
+}
+
+.bg-sky {
+  background-color: #b4d0e7;
+}
+
+.half-col {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.half-col > h2 {
+  padding: 0;
+  color: #62092b;
+}
+
+.section-questions {
+  font-weight: bold;
+  color: black;
+  display: flex;
+  height: 80px;
+}
+
+.question {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.question-icon {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-cols-section {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  margin: auto;
+}
+
+.footer-col {
+  width: calc(100% / 5);
+}
+
+.footer-col li {
+  color: lightgray;
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.footer-title-list {
+  padding: 60px 0 20px 0;
+}
+
+.footer-col ul {
+  margin-bottom: 100px;
+}
+
+.footer-break {
+  width: 60px;
+  height: 1px;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.language {
+  color: grey;
+  padding-bottom: 20px;
 }
